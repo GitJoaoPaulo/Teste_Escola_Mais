@@ -1,0 +1,30 @@
+.container-task{
+    display: flex;
+    margin-top: 200px;
+    flex-direction: column;
+    width: 700px;
+    height: 700px;
+}
+
+.container-newTask{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-tarefa{
+    width: 500px;
+}
+
+.link-home{
+    margin: 0;
+}
+
+h2{
+    color: brown;
+}

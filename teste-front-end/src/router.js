@@ -7,7 +7,7 @@ function  RoutesApp(){
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={ <Home/> } />
-                <Route path="/task/:userId" element={ <Task/> } />
+                <Route path="/task/:id" element={ <Task/> } />
             </Routes>
         </BrowserRouter>
     )
