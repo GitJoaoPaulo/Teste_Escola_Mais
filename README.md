@@ -25,3 +25,7 @@ Para rodar o projeto é necessário em primeiro ter o Node instalado com a vers�
 - API disponivel em `https://jsonplaceholder.typicode.com/`
 
 
+
+### Acesse o projeto no ar <a href="https://teste-todo-list.netlify.app/">aqui</a>
+
+
