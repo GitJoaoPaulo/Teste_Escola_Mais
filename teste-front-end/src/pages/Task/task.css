@@ -1,9 +1,13 @@
+body{
+    overflow: hidden;
+}
+
 .container-task{
     display: flex;
-    margin-top: 200px;
+    margin-top: 150px;
     flex-direction: column;
-    width: 700px;
-    height: 700px;
+    width: 800px;
+    height: 800px;
 }
 
 .container-newTask{
@@ -22,9 +26,110 @@
 }
 
 .link-home{
-    margin: 0;
+    margin-left: 0;
+    bottom: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    transition: all 0.5s;
+}
+
+.link-home:hover{
+    background-color: white;
+    color: brown;
+}
+
+.button-add{
+    cursor: pointer;
+    border: 0;
+    padding: 7px;
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+
+.button-add:hover{
+    background-color: white;
+    color: brown;
 }
 
 h2{
     color: brown;
+}
+
+@media (max-width: 690px){
+
+    *{
+        overflow: auto;
+    }
+
+    .container-task{
+        width: 1500px;
+        height: 1500px;
+        margin-top: 100px;
+    }
+
+    .container-newTask{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .title-tarefa{
+        width: 100%;
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .list{
+        flex-direction: column;
+    }
+
+    p{
+        margin-top: 30px;
+    }
+
+    .link-home{
+        bottom: 0;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        background-color: brown;
+        color: white;
+    }
+
+}
+
+@media (max-width: 370px){
+    .container-task{
+        width: 1500px;
+        height: 1500px;
+        margin-top: 100px;
+    }
+
+    .title-tarefa{
+        width: 100%;
+        height: 30px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .button-add{
+        padding: 10px;
+    }
+
+    .link-home{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        background-color: brown;
+        color: white;
+    }
+
 }
