@@ -28,7 +28,7 @@ function Tarefa() {
             setTasks([...tasks, response.data]);
             setTitleTask('');
         }else{
-            alert("Preencha o campo")
+            alert("Preencha o campo de maneira certa. Não repita uma tarefa ou deixe o campo em branco")
         }
         
 
